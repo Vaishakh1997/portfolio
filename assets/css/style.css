@@ -32,6 +32,16 @@ body::before {
   position: absolute;
   right: 100px;
 }
+@media screen and (max-width:767px) {
+  .bg-image{
+    right:0
+  }
+  .bg-image img{
+    z-index: -1;
+    position: relative;
+    opacity: 60%;
+  }
+}
 button{
   background: #18d26e;
   border: 0;
